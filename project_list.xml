@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PROJECT_LIST>
+  <PROJECT>
+    <NAME>Web Bubbles</NAME>
+    <DESC><![CDATA[ 
+		<p>
+            WebBubbles is a browser with a touch-based zooming user interface for the iPad. It allows multiple link selection using taps or drawing selection boxes, and visualizes selected out-links in a hierarchy of clusters based on their in-linking pages. Users can pan through pages or snap into a page by to interact with it. WebBubbles dynamically converts between images and interactive renderings of webpages to conserve memory.  
+		</p>
+		
+		]]></DESC>
+    <SHOT><![CDATA[
+		<a href="projects/screenshot/webbubbles.png" target="_blank"><img src="projects/screenshot/webbubbles.png" class='pj_img'/></a>
+			]]></SHOT>
+    <OTHER><![CDATA[ 	
+	]]></OTHER>
+    <LINK><![CDATA[
+        <a href="projects/webbubbles.pdf" target="_blank">Paper</a>
+  |
+        <a href="projects/webbubbles_poster.pdf" target="_blank">Poster</a>
+    ]]>
+    </LINK>
+  </PROJECT>
+  <PROJECT>
+    <NAME>Play 'round (aka Mother Plucker)</NAME>
+    <DESC><![CDATA[ 
+		<p>
+            Play music. Play 'Round. Pluck.<br/><br/>
+
+            Play 'Round (aka the Mother Plucker) is a space for collaborative rhythmic exploration (we're pretty committed to being pretentious). Use it to draw some stuff, then watch your creation generate music. Share your art with others and interact with them to create something even stranger - and more beautiful -  together.<br/><br/>
+        Please check out the <a href="http://stanford.edu/~luyota/cgi-bin/luyota/projects/cs476a" target="_blank">website</a> for more details.
+		</p>
+		
+		]]></DESC>
+    <SHOT><![CDATA[
+		<a href="projects/screenshot/plucker.png" target="_blank"><img src="projects/screenshot/plucker.png" class='pj_img'/></a>
+			]]></SHOT>
+    <OTHER><![CDATA[ 	
+	]]></OTHER>
+    <LINK><![CDATA[
+        <a href="http://stanford.edu/~luyota/cgi-bin/luyota/projects/cs476a" target="_blank">Website</a>
+  |
+        <a href="https://github.com/emarschner/motherplucker" target="_blank">Source Code</a>
+    ]]>
+    </LINK>
+  </PROJECT>
+  <PROJECT>
+    <NAME>Napkinotes</NAME>
+    <DESC><![CDATA[ 
+		<p>
+        NapkiNotes is a Software Project Experience with Corporate Partners course project. We, a five-person team, worked with Samsung to explore the possibilities of NFC technology on the Nexus S phone. We designed an application that improves in-restaurant dining experiences. The project involves different aspects of product development: need finding, brainstorming, prototyping, testing and user study. Watch the demo to get a feel about how it works!
+		</p>
+		
+		]]></DESC>
+    <SHOT><![CDATA[
+			]]></SHOT>
+    <OTHER><![CDATA[ 	
+    <iframe width="420" height="315" src="http://www.youtube.com/embed/6uvg6t7VqzY" frameborder="0" allowfullscreen></iframe>
+	]]></OTHER>
+    <LINK><![CDATA[
+    ]]>
+    </LINK>
+  </PROJECT>
+  <PROJECT>
+    <NAME>Pixtory</NAME>
+    <DESC><![CDATA[ 
+		<p>
+        Pixtory is Stanford CS247: HCI Studio project that I built with my friends Eli, Andrew and Alexander. This android app helps travelers record their tracks and also pull pictures nearby from the Internet so that they don't have to take pictures by themselves all the time to record the journey. Also, the pictures the users take will also be put into the photo stream. Here the video: (<b>Please check out the website for more details!</b>)
+		</p>
+		
+		]]></DESC>
+    <SHOT><![CDATA[
+			]]></SHOT>
+    <OTHER><![CDATA[ 	
+    <iframe title="YouTube video player" width="480" height="390" src="http://www.youtube.com/embed/sDXaymJH2IY" frameborder="0" allowfullscreen></iframe>
+	]]></OTHER>
+    <LINK><![CDATA[
+        <a href="http://stanford.edu/~luyota/pixtory" target="_blank">Website</a>
+    ]]>
+    </LINK>
+  </PROJECT>
+  <PROJECT>
+    <NAME>Friend Detector!</NAME>
+    <DESC><![CDATA[ 
+		<p>
+        Friend Detector is an android app that I made with my friend Alexander. It uses different colors to indicate how far you are from your friends who are also using the app. Let's watch the demo directly:
+		</p>
+		
+		]]></DESC>
+    <SHOT><![CDATA[
+			]]></SHOT>
+    <OTHER><![CDATA[ 	
+        <iframe title="YouTube video player" width="480" height="390" src="http://www.youtube.com/embed/D9guN3i_s8k" frameborder="0" allowfullscreen></iframe>
+	]]></OTHER>
+  </PROJECT>
+  <PROJECT>
+    <NAME>Fooooooood!</NAME>
+    <DESC><![CDATA[ 
+		<p>
+		A "Parallel Programming" project in which we built a classified food search engine by implementing Probability Latent Semantic Analysis (PLSA) with Hadoop. As it is a semantic search engine, typing in "cake" will make the search engine retrieve documents semantically related to "cake", and thus it will show documents about "tiramisu". The computation of the classification model was parallelized on 36 nodes provided by Google. It was finally selected as one of the top three projects in the course by Google engineers.
+		</p>
+		
+		]]></DESC>
+    <SHOT><![CDATA[
+		<a href="projects/screenshot/hungry_studio.jpg" target="_blank"><img src="projects/screenshot/hungry_studio.jpg" class='pj_img'/></a>
+			]]></SHOT>
+    <LINK><![CDATA[ 	
+	<a href="http://www.csie.ntu.edu.tw/~b94063/hungrystudio/" target='_blank'>Website</a> | 
+	<a href="projects/PP_Final_Report.pdf" target="_blank">Report</a>
+	
+	]]></LINK>
+  </PROJECT>
+  <PROJECT>
+    <NAME>Mapduler</NAME>
+    <DESC><![CDATA[
+        <p>        
+        Mapduler is a Stanford CS147: Introduction to HCI course project. It is a map based scheduler that incorporates location information directly into the schedule for the users to easily manage the locations of events. It also has a location based recommendation system as well as a convenient todo list manager. We aim to change and improve the user experience of using a scheduler by solving the problem that arises when users fail to identify the locations of events in their schedules.
+        </p>
+    ]]></DESC>
+    <SHOT><![CDATA[
+        <a href="projects/screenshot/mapduler.jpg" target="_blank"><img src="projects/screenshot/mapduler.jpg" class='pj_img'/></a>
+    ]]></SHOT>
+    <LINK><![CDATA[
+        <a href="projects/CS147_poster.pptx" target="_blank">Poster</a>
+    ]]></LINK>
+  </PROJECT>
+  <PROJECT>
+    <NAME>Super Tetris</NAME>
+    <DESC><![CDATA[ 
+		<p>
+		A Tetris game Mr. Q and I wrote when bored. The game was written in C#, and we also put super intelligent AI into the game. The game supports 4 players (including AI players) to play at the same time, and a player can also attack other players in different teams by removing more than two lines. It's quite fun. Enjoy it!
+		</p>
+		
+		]]></DESC>
+    <SHOT><![CDATA[
+		<a href="projects/screenshot/tetris.JPG" target="_blank"><img src="projects/screenshot/tetris.JPG" class='pj_img'/></a>
+			]]></SHOT>
+    <LINK><![CDATA[ 	
+		<a href="projects/tetris_ver2.1-exe.zip">Download Game</a>
+	]]></LINK>
+  </PROJECT>
+  <PROJECT>
+    <NAME>Brick Smasher</NAME>
+    <DESC><![CDATA[ 
+		<p>
+		A "Design Pattern" project that implements the game using design patterns. We used QT for implementing graphical interface, and PhysX developed by NVidia for collision detection. We applied 9 patterns to the program, including Bridge Pattern, Template Method Pattern, etc. We entitled this game "Brick Smasher" because some bricks would smashed into pieces when hit by the ball. However, people know the name "Breakout" better.
+		</p>
+		
+		]]></DESC>
+    <SHOT><![CDATA[	
+			]]></SHOT>
+    <OTHER><![CDATA[ 	
+    <iframe title="YouTube video player" width="480" height="390" src="http://www.youtube.com/embed/hL-8e8coefo" frameborder="0" allowfullscreen></iframe>
+	]]></OTHER>
+  </PROJECT>
+  <PROJECT>
+    <NAME>Run! Robot!</NAME>
+    <DESC><![CDATA[ 
+		<p>
+		An Artificial Intelligence course project in which we put AI into the robot car in Microsoft Robotic Studio and had it race with human players. It was an amazing moment when we saw our little car rushing in the maze. Sometimes it did win over human players. It seldom crashed, as long as the human player didn't bump into it :)
+		</p>
+		]]></DESC>
+    <SHOT><![CDATA[
+			]]></SHOT>
+    <OTHER><![CDATA[ 		
+    <iframe title="YouTube video player" width="480" height="390" src="http://www.youtube.com/embed/AxRogL2sHYM" frameborder="0" allowfullscreen></iframe><br/>
+	]]></OTHER>
+    <LINK><![CDATA[ 		
+	<a href="projects/AIProject.pdf" target='_blank'>Report</a>
+    ]]></LINK>
+  </PROJECT>
+  <PROJECT>
+    <NAME>Peeping Montage</NAME>
+    <DESC><![CDATA[ 
+		<p>
+		A "Multimedia Analysis and Indexing" project that had a webpage to generates mosaic images for visitors.
+		Additionally, we extended the idea to apply mosaic image techniques to movies by either generating an mosaic movie 
+		or generating an mosaic image with "animated" pixels.
+		</p>
+		<p>
+		With the extended ideas that allowed the presence of dynamic elements in the images, we were able to have more imaginations about the art work.
+		</p>		
+		]]></DESC>
+    <SHOT><![CDATA[
+		<a href="projects/screenshot/mmai.jpg" target="_blank"><img src="projects/screenshot/mmai.jpg" class='pj_img'/></a>
+			]]></SHOT>
+    <LINK><![CDATA[ 	
+	<a href="http://ir.csie.ntu.edu.tw/~chinhui/mmai/" target="_blank">Website</a> | 
+	<a href="projects/mmai_final_report.pdf" target='_blank'>Report</a>
+	]]></LINK>
+  </PROJECT>
+  <PROJECT>
+    <NAME>Hate or Love</NAME>
+    <DESC><![CDATA[ 
+		<p>
+		A "Net Art" project that has two parts.
+		</p>
+		<p>
+		In the first part, we analyzed users' positive/negative emotion on the Internet. 
+		We first crawled articles from users' blogs, analyzed the "emotional degree" of these articles, and displayed the results on a heart. Negative articles had deeper pixels on the heart, while positive articles were more bright.
+		</p>
+		<p>
+		In the second part, we provided users with a heart that allowed users to post articles on the pixels of the heart. The heart would gradually be filled with color according to the articles' emotion.</p>
+		<p>
+		The concept of this project came from Web2.0. As in the web era, users could easily share their thoughts on the Internet. Through observing the contents of user posts, we could know how people felt about their lives.
+		</p>
+		]]></DESC>
+    <SHOT><![CDATA[
+			<a href="projects/screenshot/LorH2.jpg" target='_blank'><img src='projects/screenshot/LorH2.jpg' class='pj_img'/></a> ]]></SHOT>
+    <LINK><![CDATA[ 
+	<a href="http://140.112.21.14/~netart09sf/final/ptt.php" target='_blank'>Website</a>
+	]]></LINK>
+  </PROJECT>
+  <PROJECT>
+    <NAME>Dance Machine</NAME>
+    <DESC><![CDATA[ 
+		<p>
+		An "Assembly" project in which we used both C++ and assembly to make a finger dancing game.
+		</p>
+		
+		]]></DESC>
+    <SHOT><![CDATA[
+		<a href="projects/screenshot/assembly_dance.jpg" target="_blank"><img src="projects/screenshot/assembly_dance.jpg" class='pj_img'/></a>
+			]]></SHOT>
+    <OTHER><![CDATA[ 	
+	
+	]]></OTHER>
+  </PROJECT>
+  
+</PROJECT_LIST>

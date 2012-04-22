@@ -1,0 +1,130 @@
+body {
+    background: #DDDDDD;
+    color: #555555;
+    font-size: 13px;
+}
+#centered_frame{
+    -khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+    width: 750px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+
+}
+#header {
+    padding-top: 20px
+}
+#menu {
+    height: 25px;
+    background: #0066dd
+}
+#menu ul {
+    height: 20px;
+    width: 800px; 
+    padding-left: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menuitem{
+    list-style-type: none;
+    float: left;
+	color: #666666;
+    padding: 3px 20px 3px 20px
+}
+.menuitem a:hover {
+    color: #CCCCCC;
+}
+#page_info_wrapper {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: white;
+}
+#page_info {
+    display: none;
+    -khtml-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: #000000;
+}
+
+table {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table.content_table {
+	font-size: 12px;
+	border-style: solid;
+}
+tr.content_row {	
+	border: solid;		
+	
+}
+td.content_col {	
+	border-top: solid;		
+	border-bottom: solid;	
+	border-top-width: 1px;
+	border-bottom-width: 1px;	
+}
+a {
+	color: green;
+}
+a.menulink {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+    font-weight: bold;
+	font-family: arial sans-serif;
+}
+a:hover {
+/*	font-weight: bold;*/
+}
+h1 {	
+	margin-top: 10px;
+	margin-bottom: 5px;
+    margin-right: 25px;
+	text-align:right;
+	font-size: 20px;
+    color: #0066DD
+}
+ul {
+}
+ul.list {
+    padding-left: 0px;
+	font-size: 12px;
+}
+li.list {
+	padding-bottom: 5px;	
+}
+span.intro {	
+	color: green;
+	font-size: 12px;
+}
+h4.title {
+	margin-bottom: 0px;
+}
+p.desc {
+    font-size: 13px;
+    color: #555555
+}
+.emphasis {
+    font-size: 17px;
+    font-weight: bold;
+}
+.pj_img {
+    border: 2px solid #DDDDDD;
+    height: auto; 
+    width: 150px;
+}

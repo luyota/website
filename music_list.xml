@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<MUSIC_LIST>
+  <MUSIC>
+    <TITLE>NTU CSIE B94 Graduation Song</TITLE>
+    <DESC><![CDATA[ 
+		This was a song I wrote with some other students for all undergraduate in NTU CSIE as a graduation gift.
+		]]></DESC>
+    <LISTEN><![CDATA[
+		<embed src="http://tw.beta.streetvoice.com/static/player/MusicPlayer.swf?srv=tw.beta.streetvoice.com&ph=music&getv=config&skinID=6&au=80233&listtype=1&listsd=391027&autoStart=false&autoPlay=false&isEmbed=true&jsPlayer=false" allowFullScreen="false" allowScriptAccess="always" scale="noscale" type="application/x-shockwave-flash" width="330" height="100"></embed>
+			]]></LISTEN>
+    <INFO><![CDATA[ 
+		<a href="http://tw.beta.streetvoice.com/music/luyota/song/80233/" target="_blank">Info</a>
+	]]></INFO>
+  </MUSIC> 
+	<MUSIC>
+    <TITLE>Embracing Calla Lily</TITLE>
+    <DESC><![CDATA[ 
+		This song was written to join the "Calla Lily Festival" theme music competition. It is one of my favorite songs I've written.
+		]]></DESC>
+    <LISTEN><![CDATA[
+		<embed src="http://tw.beta.streetvoice.com/static/player/MusicPlayer.swf?srv=tw.beta.streetvoice.com&ph=music&getv=config&skinID=6&au=70990&listtype=1&listsd=391027&autoStart=false&autoPlay=false&isEmbed=true&jsPlayer=false" allowFullScreen="false" allowScriptAccess="always" scale="noscale" type="application/x-shockwave-flash" width="330" height="100"></embed>
+			]]></LISTEN>
+    <INFO><![CDATA[ 
+		<a href="http://tw.beta.streetvoice.com/music/luyota/song/70990/" target="_blank">Info</a>
+	]]></INFO>
+  </MUSIC>  
+
+	<MUSIC>
+    <TITLE>What Happened?</TITLE>
+    <DESC><![CDATA[ 
+		I wrote this song to express a considerate mind toward friends who were in bad moods.
+		]]></DESC>
+    <LISTEN><![CDATA[
+		<embed src="http://tw.beta.streetvoice.com/static/player/MusicPlayer.swf?srv=tw.beta.streetvoice.com&ph=music&getv=config&skinID=6&au=29159&listtype=1&listsd=391027&autoStart=false&autoPlay=false&isEmbed=true&jsPlayer=false" allowFullScreen="false" allowScriptAccess="always" scale="noscale" type="application/x-shockwave-flash" width="330" height="100"></embed>
+			]]></LISTEN>
+    <INFO><![CDATA[ 
+		<a href="http://tw.beta.streetvoice.com/music/luyota/song/29159/" target="_blank">Info</a>
+	]]></INFO>
+  </MUSIC>  
+</MUSIC_LIST>

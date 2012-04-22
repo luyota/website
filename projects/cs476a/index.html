@@ -1,0 +1,197 @@
+<html>
+  <head>
+    <title>Play 'Round, mother plucker</title>
+    <style>
+      body {
+        background:#ddd;
+        font-family:Helvetica Neue, Helvetica, Verdana, Arial, sans-serif;
+        padding: 0;
+        text-align: justify;
+      }
+      p, ul {
+        font-family: Century Schoolbook, Georgia, Palatino, serif;
+      }
+      em {
+        font-weight: bold;
+      }
+      #wrapper {
+        margin: 50px auto;
+        margin-bottom: 0;
+        padding:10px;
+        border-radius: 10px;
+        width:610px;
+        background:white;
+      }
+      #footer {
+        margin: 50px auto;
+        margin-top: 0;
+        padding: 10px;
+        font-size: .8em;
+        font-weight: 200;
+        letter-spacing: 1px;
+        width:610px;
+        text-align: right;
+      }
+      #title {
+        margin-left: 15px;
+      }
+      #menu {
+        font-size: 12px;
+        color: #999;
+        margin-top: 15px;
+      }
+      a {
+        color: #369;
+        font-weight:bold;
+      }
+      a:hover{
+        color: #09c;
+      }
+      .section {
+        padding: 10px;
+        margin: 5px;
+        border-bottom: 1px solid #ccc
+        clear: both;
+      }
+      .section .section-title {
+        margin-bottom:10px;
+        font-size:20px;
+        font-weight:bold;
+      }
+      .section .section-content {
+        color: #333;
+      }
+      .section .section-content p {
+        margin: 15px;
+        font-weight: 100;
+      }
+      .last {
+        border-bottom:none;
+      }
+      .title-image{
+        height: 60px;
+        width:auto;
+      }
+      .step-image{
+        height: 300px;
+        margin-top: 10px;
+        float: left;
+      }
+      .top-link {
+        font-size: .8em;
+        font-weight: 200;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <a name="top"></a>
+      <div id="title">
+        <div style="float:left;clear:both;">
+          <span style="vertical-align:top;font-size:40px;font-weight:bold;">Play 'Round</span>
+          <br/>
+          <span style="vertical-align:top;font-size:20px;font-weight:100;letter-spacing:1px;">aka the <span style="font-weight:200;">Mother Plucker</span></span>
+          <div id="menu">
+            <a href="#intro">Introduction</a> |
+            <a href="#product">Tutorial</a> |
+            <a href="#implementation">Implementation</a> |
+            <a href="api/html/annotated.html" target="_blank">Documentation</a> |
+            <a href="https://github.com/emarschner/motherplucker" target="_blank">Code</a>
+          </div>
+        </div>
+        <span style="font-size:12px;float:right"><a href="https://ccrma.stanford.edu/~eli/">Eli Marschner</a> / <a href="http://stanford.edu/~luyota/cgi-bin/luyota/">Michael Yu-Ta Lu</a></span>
+      </div>
+      <div style="clear:both;"></div>
+      <div id="content">
+        <div class="section">
+          <a name="intro"></a>
+          <div class="section-title"><span style="color:#FF0000">I</span>ntroduction</div>
+          <div class="section-content">
+            <p>Play music. Play 'Round. Pluck.</p>
+            <p>Play 'Round (aka the Mother Plucker) is a space for collaborative rhythmic exploration (we're pretty committed to being pretentious). Use it to draw some stuff, then watch your creation generate music. Share your art with others and interact with them to create something even stranger &mdash; and more beautiful &mdash; together.</p>
+          </div>
+          <a href="#top" class="top-link">Back to Top</a>
+        </div>
+        <div class="section">
+          <a name="product"></a>
+          <div class="section-title"><span style="color:#00AA00">T</span>utorial</div>
+          <div class="section-content">
+            <h4>Basics</h4>
+            <p>You'll want to build it. Try this:</br><span style="color:#aaa;font-size:.8em;">(um...works best on a Mac w/ coder stuff installed)</span></p>
+            <p><code>$ make</code></p>
+            <p>You'll want to run it. Try this:</p>
+            <p><code>$ ./playround localhost 20202</code></p>
+            <p>After starting, you'll see a canvas. You can draw stuff on it.</p>
+            <img src="images/s1.png" class="step-image"/>
+            <img src="images/s2.png" class="step-image"/>
+            <div style="clear:both;"></div>
+            <p>You'll want to start with a round pad. Click &amp; drag on any blank part of the canvas. Pads are the stage on which magical things happen.</p>
+            <p>Now that you have a round pad try dragging around inside of it. You'll create one of two things: a <em>string</em>, or a <em>track</em>.</p>
+            <p>Strings make sound when plucked (duh). (By "plucked" here we really mean "moused over".) You'll get one when you draw a radial line. Long strings make low sounds, short strings make high sounds. You'll hear a string's pitch as you're drawing it. You can use your cursor to pluck strings whenever you want.</p>
+            <img src="images/s3.png" class="step-image"/>
+            <img src="images/s4.png" class="step-image"/>
+            <div style="clear:both;"></div>
+            <p>Tracks are directional paths that let you bend time to your will. They always go clockwise. Try drawing a track that goes through a string. Then, click on the beginning of the track (green dot). You'll see a plucker happily moving along the track. When the plucker hits the string, it does what you expect. Sweet!</p>
+            <p>Connect tracks by starting or ending your dragging on an existing track's end points. Pluckers jump between connected tracks. If tracks fork your pluckers will multiply (be careful!). Try creating a loop...</p>
+            <img src="images/s5.png" class="step-image"/>
+            <img src="images/s6.png" class="step-image"/>
+            <div style="clear:both;"></div>
+            <p>The last piece of the puzzle is connections between pads. Draw another pad, then draw a track on it. Then drag a track from an end point of one pad's track to an end point of another pad's track. You'll get a linear track, which pluckers will travel along just as happily as they do along the curved ones.</p>
+            <h5>Deleting</h5>
+            <p>Oh no, you've drawn something that's a terrible mistake! What to do?! Well, you can delete it. Just hover your mouse on the thing you want to delete (for pads, hover on the center dot) and hit the delete/back-space key. All gone!</p>
+            <div style="clear:both;"></div>
+            <h4>Collaborate</h4>
+            <p>Sharing is caring. We know you care, and we care too, so we want you to be able to share.</p>
+            <p>Let's talk networking; specifically, the peer-to-peer kind. With Play 'Round no one's central. Everyone is both a client &amp; a server. You connect to others, they tell you who else to connect to, and you tell whoever you know about whoever else you think they should connect to. It's all very democratic (and sort of magical).</p>
+            <p>Consider the command from before:</p>
+            <p><code>$ ./playround localhost 20202</code></p>
+            <p>With this you're actually saying which peer you want to connect to first &mdash; the "bootstrap peer" (<code>"localhost"</code> above) &mdash; and also the port you want to listen to (<code>"20202"</code> above). The generic form is:</p>
+            <p><code>$ ./playround &lt;bootstrap-host:port&gt; &lt;listen-port&gt;</code></p>
+            <p>It means you will join <code>&lt;bootstrap-host:port&gt;</code>'s network, and you are listening to the port <code>&lt;listen-port&gt;</code>. (By the way, these are UDP ports, not TCP.) If someone's listening at <code>&lt;bootstrap-host:port&gt;</code> they'll tell you about any other peers they know about, and you'll be connected to them, too.</p>
+            <p>Now what? Well, you're synchronized with all your new-found friends. You see what they draw, and they see what you draw. Everyone also sees everyone else's mouse positions (pink circles &mdash; dots when the mouse button's held down).</p>
+            <img src="images/s7.png" class="step-image" style="margin-left:20px;float:right;"/>
+            <h4>Express Yourself</h4>
+            <p>Annotate pads by hovering over their centers and typing a message. If you move the mouse anywhere else then anything you type will appear as a message next to your cursor.</p>
+            <p>Yes, everyone else in your network sees these messages. Use them to identify yourself, make demands, claim dominion over a pad, or simply chat.</p>
+            <a href="#top" class="top-link">Back to Top</a>
+            <div style="clear:both;"></div>
+          </div>
+        </div>
+        <div class="section last">
+          <a name="implementation"></a>
+          <div class="section-title">
+            <span style="color:#39f">I</span>mplementation
+            <br/>
+            <span style="font-size:.8em;font-weight:200;letter-spacing:1px;">Nerd Alert...</span>
+          </div>
+          <div class="section-content">
+            <p>Play 'Round has three major components:</p>
+            <ul>
+              <li>Audio</li>
+              <li>Graphics (GUI)</li>
+              <li>Networking</li>
+            </ul>
+            <p>For API documentation, <a href="api/html/index.html" target="_blank">refer here</a>.</p>
+            <h4>Audio</h4>
+            <p>For plucking we're using <a href="https://ccrma.stanford.edu/software/stk/">STK</a>. Specifically, the string sound comes from the <a href="https://ccrma.stanford.edu/software/stk/classstk_1_1Plucked.html"><code>Stk::Plucked</code></a> class, which uses the Karplus-Strong algorithm to generate sound. Nope, it's not anything fancy.</p>
+            <h5>Double Buffering of Sound Source Buffer</h5>
+            <p>With audio, graphics, and networking all going on at once, we've got a lot of threads to deal with, and have to be especially cautious about keeping that audio thread running at real-time speeds. The fact that we're reading data about the strings from an STL map in the audio thread makes this risky business. (Ok, ok, we could have gone with an intrinsically thread-safe data structure, but STL's just so so darn easy, and we're lazy...) We don't want another thread to change the map while the audio thread's reading it (race condition!), but we don't want to make the audio thread wait for any changes to finish, because that might take a long time (memory allocations, etc.).</p>
+            <p>So, we double-buffer the map. That is, we keep two copies of it, and at any given moment one copy is for reading by the audio thread, and the other is for writing by anyone else. When all writes are done we swap the read/write pointers, which is pretty much guaranteed to happen super-quick. We then copy the contents of the new read map into the old read map (now the write map), and go about business as usual. That copy might take a while (in CPU-relative terms), but it doesn't affect the audio thread, so that's fine. We only put a lock around the swap code to prevent swapping when the audio thread is reading the read-map.</p>
+            <h4>Graphical User Interface</h4>
+            <p>We made a bare-bones widget library, suitably custom-/bastard-ized for our specific needs. Everything's a <a href="api/html/class_shape.html"><code>Shape</code></a> (what it looks like), and most things are a <a href="api/html/class_widget.html"><code>Widget</code></a> (what it acts like). Widgets (<code>"children"</code>) nest within other Widgets (<code>"parents"</code>).</p>
+            <p>OpenGL FTW.</p>
+            <h4>Network</h4>
+            <p>We're using OSC (and therefore UDP) to talk over the network.</p>
+            <p>The devil's in the details, but the tutorial above does a pretty good job at explaining how the peer-to-peer stuff works, which is the interesting part. See the <a href="api/html/class_network.html">docs</a> and/or <a href="https://github.com/emarschner/motherplucker" target="_blank">code</a> for everything else :)</p>
+          </div>
+          <a href="#top" class="top-link">Back to Top</a>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      Made @ <a href="https://ccrma.stanford.edu/" target="_blank">CCRMA</a><br/>
+      for <a href="https://ccrma.stanford.edu/courses/256a-fall-2011/" target="_blank">Music 256a: Music, Computing, and Design</a><br/>
+      taught by <a href="https://ccrma.stanford.edu/~ge/" target="_blank">Ge Wang</a> &amp; <a href="https://ccrma.stanford.edu/~jorgeh/" target="_blank">Jorge Herrera</a>
+    </div>
+  </body>
+</html>
