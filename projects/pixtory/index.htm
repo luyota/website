@@ -1,0 +1,95 @@
+<html>
+<head><title>Pixtory</title>
+<script type="text/javascript" src="jquery.js"></script>
+<style type="text/css">
+img {
+    border: none
+} 
+a {
+    text-decoration:none; color:#0066dd
+}
+body {
+     font-family: sans-serif;
+}
+
+</style>
+</head>
+<body>
+<div id="containner">
+<div style="width: 820px; margin-left: auto; margin-right: auto; ">
+<div id="header">
+<table style="width:480px; margin-left: auto; margin-right:auto">
+<tr>
+    <td><div style="width: 250px; margin-left:0px; margin-right: auto">
+        <a href="index.htm"><img src="image/logo.png" style="width: 200px; height: 100px;"/></a></div></td>
+    <td>Tell stories <b><i>effortlessly</i></b><br/> 
+        and <b><i>never miss a thing</i></b>.</td>
+</tr>
+</table>
+</div>
+
+<div id="content">
+    <div id="left_menu" style="width: 170px; float:left " >
+        <a href="files/poster_main.png" target="_blank"><img src="image/poster.png" width="150px" height="50px"/></a><br/>
+        <a href="http://codaset.com/emarschner/postmen-cs247-final-project/wiki" target="_blank"><img src="image/wiki.png" width="150px" height="50px"/></a><br/>
+        <!--a href="files/source.zip"><img src="image/source.png" width="150px" height="50px"/></a><br/-->
+        <a href="#" onclick="$('#about').toggle('slow');"><img src="image/about.png" width="150px" height="50px"/></a><br/>
+        <div id="about" style="padding-left: 15px; font-size: 12px; color:gray; display:none" >
+        <p>We're team <b>Postmen</b><br/> from <a href="http://cs.stanford.edu" target="_blank">Stanford CS</a>:
+        </p>
+        <p>
+            <b>Alexander Blessing</b><br/>
+            &nbsp;&nbsp;(abless@stanford.edu)<br/>
+            <b>Andrew Chien</b><br/>
+            &nbsp;&nbsp;(andrewch@stanford.edu)<br/>
+            <b>Eli Marschner</b><br/>
+            &nbsp;&nbsp;(emarschn@stanford.edu)<br/>
+            <b>Michael Yu-Ta Lu</b><br/>
+            &nbsp;&nbsp;(luyota@stanford.edu)
+        </p>
+            <div style="padding-left: 100px;">
+                <a href="#" onclick="$('#about').toggle('slow'); " style="text-decoration:none; color:#0066dd">close</a>
+            </div>
+        </div>
+        <div style="margin-top:100px">
+        <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fstanford.edu%2F%7Eluyota%2Fpixtory%2Findex.htm&amp;layout=standard&amp;show_faces=true&amp;width=160&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=320" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:160px; height:320px;" allowTransparency="true"></iframe>
+        </div>
+    </div>
+    <div style="width:480px; float:left">
+        <iframe title="YouTube video player" width="480" height="390" src="http://www.youtube.com/embed/sDXaymJH2IY" frameborder="0" allowfullscreen></iframe>
+        <div>
+            <p>Pixtory gives you a connection to your surroundings that you didn't have before. Its driving philosophy is simplicity: just tell it to start...and that's it.</p>
+            <p>While running in the background it will only ever bother you with an easily recognizeable vibration when it finds pictures, simply as reassurance that it's got you covered, or maybe a suggestion that, if you've got a moment, there's something nearby that's worth photographing yourself.</p>
+            <p>When your travels are done Pixtory gives you a photographic narrative of your journey, which is yours to curate, admire, and share.</p>
+            <p>It gives you your <b>travel stories, in pictures, effortlessly.</b></p>
+        </div>
+        <div style="font-size:10px; color: gray; margin-top: 20px;margin-bottom: 5px; text-align:center">
+        A product of Postmen Studio. <br/>Web designer: <a href="http://stanford.edu/~luyota" target="_blank">Yu-Ta (Michael)</a> Contents: <a href="http://www.stanford.edu/~abless/" target="_blank">Alexander</a>, Andrew and <a href="http://cs.stanford.edu/people/eli/" target="_blank">Eli</a>.<br/>
+        </div>
+    </div>
+    <div>
+        <img src="image/watchme.png" width="124px" height="104px"/>
+        <div style="margin-top: 210px">
+            <a href="image/ss1.png" target="_blank">
+                <img id="img1" src="image/ss1_small.png" style="opacity:0.4;filter:alpha(opacity=40)" onmouseover="mouseOn(1);" onmouseout="mouseOff(1);"/></a>
+            <a href="image/ss2.png" target="_blank">
+                <img id="img2" src="image/ss2_small.png" style="opacity:0.4;filter:alpha(opacity=40)" onmouseover="mouseOn(2);" onmouseout="mouseOff(2);"/></a>
+            <a href="image/ss3.png" target="_blank">
+                <img id="img3" src="image/ss3_small.png" style="opacity:0.4;filter:alpha(opacity=40)" onmouseover="mouseOn(3);" onmouseout="mouseOff(3);"/></a>
+            <script type="text/javascript">
+                function mouseOn(which) {
+                    $("#img"+which).css("opacity", "1.0");
+                    $("#img"+which).css("filter", "alpha(opacity=100)");
+                }
+                function mouseOff(which) {
+                    $("#img"+which).css("opacity", "0.4");
+                    $("#img"+which).css("filter", "alpha(opacity=40)");
+                }
+            </script>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>
